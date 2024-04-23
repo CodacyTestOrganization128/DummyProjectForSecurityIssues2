@@ -20,7 +20,5 @@ SLACK_TOKEN=xoxb-244636495000-244564491300-Wwpw98abcdabcdefabcdabcz
 let dynamic = window.prompt() // arbitrary user input
 eval(`${dynamic} possibly malicious code`);
 
-await 'value';
-
-const createValue = () => 'value';
-await createValue();
+class A { }
+A = 0;
